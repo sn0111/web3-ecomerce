@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.cart-icon{
+    position: relative;
+}
+.cart-icon span{
+    position: absolute;
+    background-color: red;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 45%;
+    width: 19px;
+    text-align: center;
+    align-items: center;
+    height: 20px;
+    top: 6px;
+    left:18px;
+}
